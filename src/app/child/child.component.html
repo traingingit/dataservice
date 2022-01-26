@@ -1,0 +1,8 @@
+<p>child works!</p>
+<table style="border: 1px solid black;">
+    <tr style="border: 1px solid black;"><th>User Id</th><th>Post Id</th><th>title </th><th>body</th></tr>
+    <tr style="border: 1px solid black;" *ngFor="let article of articles">
+        <td>{{article.userId}}</td><td>{{article.id}}</td><td>{{article.title}}</td><td>{{article.body}}</td>
+        </tr>
+</table>
+
